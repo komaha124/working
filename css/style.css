@@ -1,0 +1,158 @@
+ body{
+     margin: 0;
+ }
+ h3{
+    margin: 0;
+ }
+ #hed{
+     background-image: url(../img/heder.jpg);
+     height: 1050px;
+ }
+ .hed-conteiner{
+     width: 900px;
+     margin: 0 auto;
+ }
+ #log{
+     display: block;
+     margin: 0 auto;
+     padding-top: 290px;
+ }
+ .hed-text >h1{
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-size: 30px;
+ }
+ .hed-text >p{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+ }
+ .hed-scroll{
+    text-align: center;
+    padding-top: 320px;
+ }
+ #white-section{
+     background-color: white;
+     height: 500px;
+     text-align: center;
+ }
+ .block2{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 110px;
+ }
+ legend{
+     font-size: 30px;
+     font-weight: 600;
+     padding: 0 30px;
+     text-transform: uppercase;
+ }
+ .block-p{
+    width: 500px;
+    margin: 30px auto;
+ }
+ .block-p2{
+    width: 414px;
+    margin: 30px auto;
+ }
+ #section-3{
+    background-image: url(../img/body.jpg);
+    height: 490px;
+    text-align: center;
+ }
+ .block3{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 110px;
+  
+ }
+ .white-legend{
+     color: white;
+ }
+ .white-flid{
+    border: 1px solid white;
+ }
+ .white-text{
+     color: white;
+     width: 540px;
+ }
+ #section-4{
+    background-color: white;
+    height: 1000px;
+    text-align: center;
+ }
+ .main-legend{
+    letter-spacing: 7px;
+ }
+ .icon{
+    width: 70px;
+    padding: 20px;
+ }
+ .block-4{
+     width: 590px;
+     text-align: center;
+     margin: 15px auto;
+ }
+ #section-5{
+    background-color: white;
+    height: 625px;
+    text-align: center;
+ }
+ .grid-container {
+    display: grid;
+    grid-template-columns: 532px 832px 532px;
+    grid-template-rows: 300px 300px;
+    gap: 0px 6px;
+    grid-template-areas:
+      "topwork joit market"
+      "worktop lable kyiv";
+  }
+  
+  .topwork { grid-area: topwork; }
+  
+  .joit { grid-area: joit; }
+  
+  .market { grid-area: market; }
+  
+  .worktop { grid-area: worktop; }
+  
+  .lable { grid-area: lable; }
+  
+  .kyiv { grid-area: kyiv; }
+  .grid-container> div{
+    opacity: 0.5;
+  }
+  .grid-container> div:hover{
+    opacity: 1;
+  }
+  .text-grid{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: -50px;
+    left: 20px;
+  }
+  .btn{
+     width: 395px;
+     height: 55px;
+     background-color: #3c3c3c;
+     color:white;
+     border: none;
+     cursor: pointer;
+  }
+  .footer{
+    display: block;
+    margin: 0 auto;
+  
+  }
+  .footer{
+    text-align: center;
+  }
+  .foot-logo{
+      margin-bottom: -36px;
+  }
