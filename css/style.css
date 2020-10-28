@@ -38,6 +38,11 @@
      height: 500px;
      text-align: center;
  }
+ #white-section-2{
+    background-color: white;
+    height: 500px;
+    text-align: center;
+}
  .block2{
     width: 900px;
     margin: 0 auto;
